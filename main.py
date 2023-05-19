@@ -11,6 +11,7 @@ connection = psycopg2.connect(
     port="5432"
 )
 
+
 # Habilitar la confirmación automática de transacciones
 connection.autocommit = True
 #print(connection)
